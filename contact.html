@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="styles/qrcode.css" />
+  </head>
   <body>
-  
-  <p>
-    Emiliedalen 205
-  </p>
-  <p>
-    8270 Højbjerg
-  </p>
-  <p>
-    Denmark
-  </p>
-  <p>
-    Mobile : (+45) 22 67 92 92
-  </p>
-  <button onclick="redirect()">
-    Ana Sayfa
-  </button>
+    <div class="border-class">
+      <div class="qrcode-div-class">
+        <img class="qrcode-class" src="https://api.qrserver.com/v1/create-qr-code/?data=Alp Altug Ozel 45 22 67 92 92 Emiliedalen 205 Højbjerg / Århus / Denmark&amp; size=100x100" alt="" title="HELLO" />
+    </div>
+  <div class="text-ust-class">    
+    <p class="scan-text-class">
+      Scan QR code to reach out my contact details
+    </p>
+    <p>
+      Emiliedalen 205
+    </p>
+    <p>
+      8270 Højbjerg / Århus
+    </p>
+    <p>
+      Denmark
+    </p>
+    <p>
+      Mobile : (+45) 22 67 92 92
+    </p>
+    <p >
+      e-mail: <span class="e-mail-class">alpaltugozel@gmail.com</span> 
+    </p>
+    <button class="home-button-class" onclick="redirect()">
+      Home
+    </button>
+  </div>
+</div>     
+ 
   <script>
     function redirect() {
       location.replace("index.html");
